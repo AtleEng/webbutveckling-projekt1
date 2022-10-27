@@ -55,7 +55,7 @@ a {
 }
 
 h1 {
-    size: 60px;
+    font-size: 400%;
 }
 
 h2:hover {
@@ -71,7 +71,7 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 50px;
+    font-size: 150%;
     text-decoration: none;
     padding: 5% 0%;
 }
@@ -92,7 +92,7 @@ h5 {
 
 .productGrid {
     display: grid;
-
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -102,6 +102,16 @@ h5 {
     grid-template-rows: 1fr 1fr;
 }
 
-.imgModes {
+.productImgMode {
     padding: 3% 3% 1%;
+    margin: 0%;
+    width: 60%;
+    height: auto;
+}
+
+.gamesImgMode {
+    padding: 3% 3% 1%;
+    margin: 0%;
+    width: 85%;
+    height: auto;
 }
