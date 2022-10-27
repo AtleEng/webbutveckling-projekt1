@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 5;
+    color: rgb(226, 226, 226);
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto auto 1fr 100px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(27, 23, 37);
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    background-color: rgb(41, 35, 56);
+    padding: 10px 10px;
+}
+
+.navSelect {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.navSelect:hover {
+    text-decoration-color: red;
+}
+
+main {
+    text-align: center;
+    background-image: url("./pablo-arenas-0Q-Hj4pi2tk-unsplash.jpg");
+    background-size: fit;
+    background-size: 200%;
+    background-position: 50% 70%;
+}
+
+footer {
+    background-color: rgb(27, 23, 37);
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+h1 {
+    size: 60px;
+}
+
+h2:hover {
+    transform: scale(0.9);
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 5% 0%;
+}
+
+h4 {
+    text-align: left;
+    font-size: 150%;
+    text-decoration: none;
+    padding: 0% 5%;
+}
+
+h5 {
+    text-align: left;
+    font-size: 250%;
+    text-decoration: none;
+    padding: 0% 5%;
+}
+
+.productGrid {
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gamesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.imgModes {
+    padding: 3% 3% 1%;
+}
